@@ -1,3 +1,5 @@
 # ninja log v5
 0	312	6637031901158460	CMakeFiles/InputLoopWithCstring.dir/main.cpp.obj	bb29d23f16c97e1e
 314	425	6637031902258493	InputLoopWithCstring.exe	df73ef3e67081361
+3	309	6637035840272491	CMakeFiles/InputLoopWithCstring.dir/main.cpp.obj	bb29d23f16c97e1e
+310	419	6637035841352640	InputLoopWithCstring.exe	df73ef3e67081361

@@ -1,11 +1,17 @@
 #include <iostream>
 #include <cstring>
 
+void to_lower(char *text, size_t len) {
+    for (int i = 0; i < len; ++i) {
+        text[i] = char(tolower(text[i]));
+    }
+}
 int main() {
 
     const int BUFFER_SIZE = 256;
     const int STREAM_SIZE = 1024;
     char buffer[BUFFER_SIZE];
+    char input[BUFFER_SIZE];
     bool done = false;
 
     while(!done){
@@ -15,7 +21,9 @@ int main() {
             std::cin.clear();
             std::cin.ignore(STREAM_SIZE,'\n');
         }
-        if(!strncmp(buffer,"end",BUFFER_SIZE - 1)) {
+        memcpy(input,buffer,BUFFER_SIZE);
+        to_lower(input,strlen(buffer));
+        if(!strncmp(input,"end",BUFFER_SIZE - 1)) {
             done = true;
         }
         else {
