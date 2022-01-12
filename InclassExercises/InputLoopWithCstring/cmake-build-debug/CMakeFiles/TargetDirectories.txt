@@ -1,0 +1,3 @@
+C:/Users/Bryce/OneDrive - Nova Scotia Community College/2022DataStructures/InclassExercises/InputLoopWithCstring/cmake-build-debug/CMakeFiles/InputLoopWithCstring.dir
+C:/Users/Bryce/OneDrive - Nova Scotia Community College/2022DataStructures/InclassExercises/InputLoopWithCstring/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Bryce/OneDrive - Nova Scotia Community College/2022DataStructures/InclassExercises/InputLoopWithCstring/cmake-build-debug/CMakeFiles/rebuild_cache.dir
