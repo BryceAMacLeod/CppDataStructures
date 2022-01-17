@@ -1,1 +1,4 @@
-
+**/cmake-build-debug/
+/InclassExercises/InputLoopWithCstring/cmake-build-debug/
+/InclassExercises/dynamic_arrays/cmake-build-debug/
+/InclassExercises/craptor/cmake-build-debug/
